@@ -1,0 +1,16 @@
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Infoboxcontainer {
+  display: flex;
+  justify-content: center;
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.Infoboxcontainer:hover {
+  opacity: 1;
+}

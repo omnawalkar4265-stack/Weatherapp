@@ -1,111 +1,16 @@
-# Weatherapp
-# 🌦️ Weather App
+# React + Vite
 
-A simple and responsive Weather Application built using **React.js**. The app allows users to search for any city and displays its current weather information in a clean and user-friendly interface.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Features
+Currently, two official plugins are available:
 
-- 🔍 Search weather by city name
-- 🌡️ Displays current temperature
-- 🌡️ Shows minimum and maximum temperature
-- 💧 Displays humidity
-- 🌬️ Shows atmospheric pressure
-- ☁️ Displays current weather condition
-- 📱 Responsive design
-- ⚡ Fast development using Vite
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🛠️ Tech Stack
+## React Compiler
 
-- React.js
-- JavaScript (ES6)
-- Vite
-- CSS
-- Material UI (if used)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 📂 Project Structure
+## Expanding the ESLint configuration
 
-```
-mini-project/
-│── public/
-│── src/
-│   ├── App.jsx
-│   ├── Weatherapp.jsx
-│   ├── Searchbox.jsx
-│   ├── Infobox.jsx
-│   ├── App.css
-│   ├── Searchbox.css
-│   ├── Infobox.css
-│   ├── main.jsx
-│── package.json
-│── vite.config.js
-│── README.md
-```
-
-## 📦 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/weather-app.git
-```
-
-Go to the project directory:
-
-```bash
-cd weather-app
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Open your browser and visit:
-
-```
-http://localhost:5173
-```
-
-## 📸 Screenshots
-
-Add screenshots of your project here.
-
-Example:
-
-```
-screenshots/home.png
-screenshots/weather-result.png
-```
-
-## 🎯 Future Improvements
-
-- 5-Day Weather Forecast
-- Weather Icons
-- Current Location Weather
-- Dark Mode
-- Search History
-- Better Error Handling
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Push to your branch
-5. Create a Pull Request
-
-## 👨‍💻 Author
-
-**Om Nawalkar**
-
-linkdin : https://www.linkedin.com/in/om-nawalkar-3ab680380/
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
